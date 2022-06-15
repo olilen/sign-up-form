@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
   font-family: 'Montserrat', sans-serif;
+  background-color: rgb(223, 228, 224);
   display: grid;
   grid-template-columns: 630px 1fr;
   grid-template-rows: repeat(3, 1fr);
@@ -77,4 +78,25 @@ body {
 margin: auto auto 1vh auto;
 font-size: 0.8rem;
 color:rgba(255, 255, 255, 0.4)
+}
+
+/*///////////////////////TOP TEXT SECTION///////////////////////////*/
+
+.top-paragraph{
+  width:100%;
+  padding: 2.4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top-paragraph p{
+  color:rgb(12, 63, 35);
+  width: min(400px, 80%);
+  margin-top: 12px;
+}
+.top-paragraph p:last-child{
+  font-weight: 800;
 }
